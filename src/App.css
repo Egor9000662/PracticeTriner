@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  background-color: #3b3b3b;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app .header-container {
+  flex-shrink: 0;
+}
+.app .content {
+  flex-grow: 1;
+  background: #f3efe6;
+}
+.app .footer-container {
+  flex-shrink: 0;
+}/*# sourceMappingURL=App.css.map */

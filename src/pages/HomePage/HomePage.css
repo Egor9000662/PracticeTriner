@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Rubik";
+}
+.home-container {
+  height: 100%;
+  background: #f3efe6;
+  padding: 30px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 360px) and (max-width: 675px) {
+  .home-container {
+    min-height: calc(100vh - 120px - 166px);
+  }
+}
+.home-container .home-title {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+}
+@media screen and (min-width: 360px) and (max-width: 675px) {
+  .home-container .home-title {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    color: #000000;
+  }
+}
+.home-container .home-citation-container {
+  margin-top: 30px;
+}
+.home-container .home-citation-container .home-citation {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+}
+@media screen and (min-width: 360px) and (max-width: 675px) {
+  .home-container .home-citation-container .home-citation {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    color: #000000;
+  }
+}
+.home-container .home-citation-container .home-author {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+}
+@media screen and (min-width: 360px) and (max-width: 675px) {
+  .home-container .home-citation-container .home-author {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    color: #000000;
+  }
+}
+.home-container .home-accordion {
+  width: 500px;
+  min-height: 50px;
+  margin: 40px auto 0 auto;
+  text-align: start;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+}
+@media screen and (min-width: 360px) and (max-width: 675px) {
+  .home-container .home-accordion {
+    width: 250px;
+  }
+}
+.home-container .home-accordion .home-accordion-link {
+  display: block;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  color: rgb(234, 93, 128);
+}
+
+.wrapper_list_tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper_list_tasks span {
+  color: #44cc64;
+  font-size: 16px;
+}
+
+.borderSuccessfully {
+  border: 1px solid rgb(234, 93, 128);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=HomePage.css.map */

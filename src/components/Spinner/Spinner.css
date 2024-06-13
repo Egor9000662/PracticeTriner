@@ -1,0 +1,12 @@
+.container_spinner {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_spinner .load {
+  margin-right: 10px;
+  display: block;
+}/*# sourceMappingURL=Spinner.css.map */
